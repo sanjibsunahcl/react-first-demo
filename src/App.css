@@ -9,6 +9,27 @@
   /* flex: 1; */
 }
 
+.btnStyle {
+  background-color: red;
+    border-radius: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-color: red;
+    border-width: 2px;
+    color: white;
+    font-size: 25px;
+    margin-top: 10px;
+}
+
+.view {
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  background: transparent;
+}
+
 /* .App-logo {
   height: 20;
   width: 20;
