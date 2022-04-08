@@ -6,7 +6,6 @@ import { UserContext } from "../../App";
 import './form.css'
 
 
-
 function MyForm() {
     const [inputs, setInputs] = useState({});
 
