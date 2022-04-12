@@ -1,5 +1,4 @@
 import { useEffect, useState } from "react";
-import ReactDOM from "react-dom";
 import { getWeather, KEY, updateWeather } from "../../reducers";
 import { useStateValue } from "../../store";
 import CityInfo from "./CityInfo";
@@ -7,7 +6,7 @@ import Notification from './Notification'
 import WeatherInfo from './WeatherInfo'
 import './Weather.css'
 
-const MainWeather = () => {
+const MainWeather = (props) => {
     const [{error}, dispatch] = useStateValue();  
 
     useEffect(() => {     
@@ -47,7 +46,8 @@ const MainWeather = () => {
     }, []);  
   
     return (    
-      <div className="app">      
+      <div className="app"> 
+        <button className="close" onClick={()=>props.hideWeather()}>{props.data}</button>     
         <CityInfo />
         {error && <Notification />}
         {!error && <WeatherInfo />}
