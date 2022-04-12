@@ -1,0 +1,29 @@
+.serViceContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    flex-direction: column;
+}
+.services {
+    /* background-image: url('/images/img-2.jpg'); */
+    /* background-position: center; */
+    color: skyblue; 
+    font-size: 100px;
+    /* align-self: center; */
+    /* background-size: fill; */
+  }
+
+  .btnStyle {
+    background-color: red;
+      border-radius: 10px;
+      padding-left: 30px;
+      padding-right: 30px;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      border-color: red;
+      border-width: 2px;
+      color: white;
+      font-size: 25px;
+      margin-top: 10px;
+  }
