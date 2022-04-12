@@ -141,3 +141,10 @@
     width: 20px;
     color: steelblue;
   }
+
+  .close{
+    position: absolute;
+    right: 350px;
+    top: 500px;
+    align-self: center;
+  }
