@@ -6,7 +6,8 @@
     margin: 100px auto;
     border-radius: 10px;
     padding-bottom: 50px;
-    box-shadow: 5px 10px 20px black;
+    box-shadow: 0 6px 20px rgba(56, 125, 255, 0.17);
+    /* box-shadow: 5px 10px 20px black; */
   }
   
   .app-title {
@@ -34,7 +35,7 @@
     margin-right: 10px;  
     padding: 5px;
     /* width: 70%; */
-    height: 10px;
+    height: 30px;
     border-radius: 5px;
     outline: none;
     border: 3px solid steelblue;
@@ -44,9 +45,9 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 100%;
+    width: 10%;
     height: 40px;
-    padding: 10px;
+    /* padding: 10px; */
   }
   
   .location-icon svg {
@@ -140,6 +141,7 @@
     height: 20px;
     width: 20px;
     color: steelblue;
+    align-self: center;
   }
 
   .close{
