@@ -4,7 +4,7 @@ import { useStateValue } from '../../store';
 import { getWeather, KEY, updateWeather } from '../../reducers';
 import './Weather.css'
 
-function CityInfo() {
+const CityInfo = () => {
     const [currentCity, setCurrentCity] = useState('');
     const [{city, latitude, longitude}, dispatch] = useStateValue();    
 
