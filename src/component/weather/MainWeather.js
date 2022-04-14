@@ -47,11 +47,13 @@ const MainWeather = (props) => {
   
     return (    
       <div className="app"> 
-        <button className="close" onClick={()=>props.hideWeather()}>{props.data}</button>     
-        <CityInfo />
-        {error && <Notification />}
-        {!error && <WeatherInfo />}
-        {/* <h1>Sanjib</h1> */}
+        <button className="close" 
+          onClick={()=>props.hideWeather()}
+          >{props.data}</button>     
+          <CityInfo />
+          {error && <Notification />}
+          {!error && <WeatherInfo />}
+          {/* <h1>Sanjib</h1> */}
       </div>
     );
 };
